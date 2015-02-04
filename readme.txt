@@ -26,6 +26,8 @@ Insert [Coding](https://coding.net/) repository widget into you posts/pages.
 
 作者博客：[WP酷](http://www.mywpku.com)
 
+插件介绍：http://www.mywpku.com/reposidget-for-coding.html
+
 == Installation ==
 
 1. Upload the plugin to your `/wp-content/plugins/` directory.
