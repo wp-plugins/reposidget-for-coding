@@ -1,0 +1,120 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wp-reposidget\n"
+"POT-Creation-Date: 2014-11-23 18:54+0800\n"
+"PO-Revision-Date: 2015-01-31 21:02+0800\n"
+"Last-Translator: Leo Deng <myst.dg@gmail.com>\n"
+"Language-Team: myst729 <http://myst729.github.io/>\n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: wp-reposidget.php:75
+msgid "This repository is not available anymore."
+msgstr "这个仓库不存在或已被移除。"
+
+#: wp-reposidget.php:82 wp-reposidget.php:101
+msgid "GitHub Reposidget for WordPress"
+msgstr "Coding 仓库挂件 WordPress 插件"
+
+#: wp-reposidget.php:94
+msgid "This repository doesn't have description or homepage."
+msgstr "这个仓库没有描述或主页。"
+
+#: wp-reposidget.php:121 wp-reposidget.php:137
+msgid "Add GitHub Reposidget"
+msgstr "添加 Coding 仓库挂件"
+
+#: wp-reposidget.php:122
+msgid "Please fill the owner and name of the repo:"
+msgstr "请填写要添加的仓库的所有者和名称："
+
+#: wp-reposidget.php:123
+msgid "Repo Owner"
+msgstr "仓库所有者"
+
+#: wp-reposidget.php:124
+msgid "Repo Name"
+msgstr "仓库名称"
+
+#: wp-reposidget.php:125
+msgid "Add Repo"
+msgstr "添加仓库"
+
+#: wp-reposidget.php:126
+msgid "Cancel"
+msgstr "取消"
+
+#: wp-reposidget.php:137
+msgid "GitHub Repo"
+msgstr "Coding 仓库"
+
+#: wp-reposidget.php:168
+msgid "Settings"
+msgstr "设置"
+
+#: wp-reposidget.php:174
+msgid "WP Reposidget"
+msgstr "Coding 仓库挂件"
+
+#: wp-reposidget.php:185
+msgid "WP Reposidget options"
+msgstr "Coding 仓库挂件 WordPress 插件选项"
+
+#: wp-reposidget.php:189
+msgid "Get authenticated to GitHub API (HIGHLY RECOMMENDED!)"
+msgstr ""
+
+#: wp-reposidget.php:190
+msgid ""
+"According to GitHub API's policy, unauthenticated requests have a rate limit "
+"of <b>60</b> times per hour. For authenticated requests, the rate limit is "
+"<b>5,000</b> times per hour. If you find your reposidgets not working, it's "
+"possible that unauthenticated request quota is used up due to your site's "
+"page views."
+msgstr ""
+
+#: wp-reposidget.php:194
+msgid "Personal Access Token"
+msgstr ""
+
+#: wp-reposidget.php:198 wp-reposidget.php:213
+msgid "Show Token"
+msgstr ""
+
+#: wp-reposidget.php:210
+msgid "Hide Token"
+msgstr ""
+
+#: wp-reposidget.php:223
+msgid "How do I get the personal access token?"
+msgstr ""
+
+#: wp-reposidget.php:224
+msgid ""
+"Visit <strong><a href=\"https://github.com/settings/tokens/new\" target="
+"\"_blank\">https://github.com/settings/tokens/new</a></strong>, make sure "
+"<strong>public_repo</strong> is checked (it is the only scope requested by "
+"WP Reposidget, you may uncheck others) and generate a token."
+msgstr ""
+
+#~ msgid "GitHub Username"
+#~ msgstr "GitHub 用户名"
+
+#~ msgid "GitHub Password"
+#~ msgstr "GitHub 密码"
+
+#~ msgid "Insert GitHub Reposidget"
+#~ msgstr "插入 GitHub 项目挂件"
+
+#~ msgid "Insert Repo"
+#~ msgstr "插入项目"
+
+#~ msgid "Path to the repo you want to insert:"
+#~ msgstr "将要引入的 GitHub 项目路径："
