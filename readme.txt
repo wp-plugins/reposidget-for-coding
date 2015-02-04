@@ -24,6 +24,7 @@ Insert [Coding](https://coding.net/) repository widget into you posts/pages.
 
 在 WordPress 文章/页面中嵌入 [Coding](https://coding.net/) 仓库挂件。
 
+作者博客：[WP酷](http://www.mywpku.com)
 
 == Installation ==
 
