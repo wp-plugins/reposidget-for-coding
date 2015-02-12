@@ -3,7 +3,7 @@
 Plugin Name: Reposidget For Coding
 Plugin URI: http://coding.net/pcdotfan/reposidget-for-coding
 Description: Insert Coding repository widget into you posts/pages. Be greatful to myst729 (http://github.com/myst729/wp-reposidget). 在 WordPress 文章/页面中插入 Coding 项目挂件。
-Version: 1.0.1
+Version: 1.0.0
 Author: PCDotFan
 Author URI: http://www.mywpku.com/
 License: GPLv2 or later
@@ -21,32 +21,14 @@ function coding_style() {
 }
 
 function coding_fetch($url) {
-  /*$ch = curl_init($url);
+  $ch = curl_init($url);
 
   curl_setopt($ch, CURLOPT_HEADER, false);
   curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
   curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
   curl_setopt($ch, CURLOPT_USERAGENT, CODING_USERAGENT);
   $response = curl_exec($ch);
-  curl_close($ch);*/
-  
-  $request_args = array(
-    'timeout'     => 7,
-    'redirection' => 5,
-    'httpversion' => '1.0',
-    'user-agent'  => CODING_USERAGENT,
-    'blocking'    => true,
-    'headers'     => array(),
-    'cookies'     => array(),
-    'body'        => null,
-    'compress'    => false,
-    'decompress'  => true,
-    'sslverify'   => false,
-    'stream'      => false,
-    'filename'    => null
-  ); 
-    
-  $response = wp_remote_get( $url, $request_args); 
+  curl_close($ch);
 
   return json_decode($response, true);
 }

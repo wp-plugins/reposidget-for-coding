@@ -61,10 +61,6 @@ Insert [Coding](https://coding.net/) repository widget into you posts/pages.
 * First drop.
 * 发布第一个版本。
 
-= 1.0.1 (2015-02-08) =
-* @[羊哥] (https://coding.net/u/xiayang)
-* HTTP 部分更改为 WordPress 自带的请求函数，增加兼容性。忽略平台差异性，使某些没安装 CURL 的服务器能无差异的运行插件。 感谢 @[羊哥] (https://coding.net/u/xiayang)
-
 == Upgrade Notice ==
 
 = 1.0.0 =
